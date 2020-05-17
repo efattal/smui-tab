@@ -12,7 +12,6 @@
     "sveltejs"
   ],
   "scripts": {
-    "prepare": "echo \"$(glob '**/node_modules' | lam -s '-I ' - | paste -s -d ' ' -) --no-source-map _style.scss bare.css\" | xargs sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
@@ -20,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hperrin/svelte-material-ui.git"
+    "url": "git+https://github.com/efattal/smui-tab.git"
   },
   "author": "Hunter Perrin <hperrin@gmail.com>",
   "bugs": {
